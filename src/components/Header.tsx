@@ -26,7 +26,7 @@ const Header = () => {
             <span className={`ml-3 text-xl font-bold transition-colors duration-300 ${
               isScrolled ? 'text-gray-900' : 'text-white'
             }`}>
-              AutomaticoAI
+              Initiy AI Cloud Solutions
             </span>
           </div>
 
