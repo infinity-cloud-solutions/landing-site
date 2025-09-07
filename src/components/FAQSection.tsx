@@ -70,7 +70,7 @@ const FAQSection = () => {
         <div className="text-center mt-12">
           <p className="text-gray-600 mb-6">¿Tienes otra pregunta específica sobre tu negocio?</p>
           <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300">
-            Pregúntanos en la Consulta Gratuita
+            Contáctanos para Consulta Gratuita
           </button>
         </div>
       </div>

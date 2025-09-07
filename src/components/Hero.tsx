@@ -36,7 +36,7 @@ const Hero = () => {
           {/* CTA */}
           <div className="space-y-4">
             <button className="bg-gradient-to-r from-orange-500 to-pink-500 text-white px-8 py-4 rounded-lg text-lg font-bold hover:from-orange-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-105 shadow-xl flex items-center space-x-2">
-              <span>Agenda Tu Consulta GRATUITA</span>
+              <span>Contáctanos para Consulta GRATUITA</span>
               <ArrowRight size={20} />
             </button>
             

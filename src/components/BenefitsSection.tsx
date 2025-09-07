@@ -61,7 +61,7 @@ const BenefitsSection = () => {
               ¿Listo para recuperar tu tiempo y multiplicar tus ingresos?
             </h3>
             <button className="bg-gradient-to-r from-orange-500 to-pink-500 text-white px-8 py-4 rounded-lg text-lg font-bold hover:from-orange-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-105 shadow-lg">
-              Quiero Mi Consulta Gratuita
+              Contáctanos para Consulta Gratuita
             </button>
             <p className="text-sm text-gray-500 mt-3">Agenda en menos de 2 minutos • Sin presión de venta</p>
           </div>

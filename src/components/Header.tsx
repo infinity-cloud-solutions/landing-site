@@ -52,7 +52,7 @@ const Header = () => {
               isScrolled ? 'bg-blue-600 text-white hover:bg-blue-700' : 'bg-white text-blue-600 hover:bg-gray-100'
             }`}>
               <Phone size={16} />
-              <span className="font-semibold">Llamar Ahora</span>
+              <span className="font-semibold">Contáctanos</span>
             </a>
           </div>
 
@@ -79,7 +79,7 @@ const Header = () => {
                 Casos de Éxito
               </a>
               <a href="tel:+525512345678" className="block mx-4 py-3 bg-blue-600 text-white text-center rounded-lg font-semibold">
-                Llamar Ahora
+                Contáctanos
               </a>
             </nav>
           </div>

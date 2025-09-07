@@ -56,7 +56,7 @@ const OfferSection = () => {
           {/* CTA */}
           <div className="space-y-4">
             <button className="bg-white text-orange-600 px-10 py-5 rounded-lg text-xl font-bold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-2xl flex items-center space-x-3 mx-auto">
-              <span>SÍ, Quiero Mi Consulta GRATUITA</span>
+              <span>SÍ, Contáctanos para Consulta GRATUITA</span>
               <ArrowRight size={24} />
             </button>
             

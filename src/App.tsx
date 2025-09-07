@@ -12,6 +12,7 @@ import SocialProofSection from './components/SocialProofSection';
 import FAQSection from './components/FAQSection';
 import FinalRecapSection from './components/FinalRecapSection';
 import Footer from './components/Footer';
+import ContactForm from './components/ContactForm';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <FinalRecapSection />
       </main>
       <Footer />
+      <ContactForm />
     </div>
   );
 }

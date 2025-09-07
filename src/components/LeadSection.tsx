@@ -120,7 +120,7 @@ const LeadSection = () => {
                 Descubre exactamente cómo automatizar TU negocio específico en una consulta gratuita de 30 minutos
               </p>
               <button className="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-bold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg">
-                Agenda Tu Consulta Gratuita
+                Contáctanos para Consulta Gratuita
               </button>
               <p className="text-blue-200 text-sm mt-3">Sin compromiso • Estrategia valiosa garantizada</p>
             </div>
