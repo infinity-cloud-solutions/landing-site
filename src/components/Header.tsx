@@ -1,7 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { Phone, Menu, X } from 'lucide-react';
 
-const Header = () => {
+interface HeaderProps {
+  onContactClick: () => void;
+}
+
+const Header: React.FC<HeaderProps> = ({ onContactClick }) => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -48,12 +52,12 @@ const Header = () => {
                 Casos de Éxito
               </a>
             </nav>
-            <a href="tel:+525512345678" className={`flex items-center space-x-2 px-4 py-2 rounded-lg transition-all duration-300 ${
+            <button onClick={onContactClick} className={`flex items-center space-x-2 px-4 py-2 rounded-lg transition-all duration-300 ${
               isScrolled ? 'bg-blue-600 text-white hover:bg-blue-700' : 'bg-white text-blue-600 hover:bg-gray-100'
             }`}>
               <Phone size={16} />
               <span className="font-semibold">Contáctanos</span>
-            </a>
+            </button>
           </div>
 
           <button 
@@ -78,9 +82,9 @@ const Header = () => {
               <a href="#casos-exito" className="block px-4 py-2 text-gray-700 hover:text-blue-600">
                 Casos de Éxito
               </a>
-              <a href="tel:+525512345678" className="block mx-4 py-3 bg-blue-600 text-white text-center rounded-lg font-semibold">
+              <button onClick={onContactClick} className="block mx-4 py-3 bg-blue-600 text-white text-center rounded-lg font-semibold w-full">
                 Contáctanos
-              </a>
+              </button>
             </nav>
           </div>
         )}

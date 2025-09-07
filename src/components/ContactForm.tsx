@@ -1,8 +1,12 @@
 import React, { useState } from 'react';
 import { MessageSquare, X, Send, Shield, ChevronDown, ChevronUp } from 'lucide-react';
 
-const ContactForm = () => {
-  const [isOpen, setIsOpen] = useState(false);
+interface ContactFormProps {
+  isOpen: boolean;
+  setIsOpen: (isOpen: boolean) => void;
+}
+
+const ContactForm: React.FC<ContactFormProps> = ({ isOpen, setIsOpen }) => {
   const [formData, setFormData] = useState({
     name: '',
     contact: '',

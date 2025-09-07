@@ -1,7 +1,11 @@
 import React from 'react';
 import { ArrowRight, CheckCircle, Clock, Shield, Gift } from 'lucide-react';
 
-const FinalRecapSection = () => {
+interface FinalRecapSectionProps {
+  onContactClick: () => void;
+}
+
+const FinalRecapSection: React.FC<FinalRecapSectionProps> = ({ onContactClick }) => {
   return (
     <section className="py-20 bg-gradient-to-r from-gray-900 to-blue-900 text-white">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -51,7 +55,7 @@ const FinalRecapSection = () => {
 
         {/* Final CTA */}
         <div className="space-y-6">
-          <button className="bg-gradient-to-r from-orange-500 to-pink-500 text-white px-12 py-6 rounded-xl text-xl font-bold hover:from-orange-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-105 shadow-2xl flex items-center space-x-3 mx-auto">
+          <button onClick={onContactClick} className="bg-gradient-to-r from-orange-500 to-pink-500 text-white px-12 py-6 rounded-xl text-xl font-bold hover:from-orange-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-105 shadow-2xl flex items-center space-x-3 mx-auto">
             <Gift size={24} />
             <span>Contáctanos para Consulta GRATUITA Ahora</span>
             <ArrowRight size={24} />

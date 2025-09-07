@@ -1,7 +1,11 @@
 import React from 'react';
 import { TrendingUp, Target, Lightbulb, Clock, DollarSign, Users } from 'lucide-react';
 
-const LeadSection = () => {
+interface LeadSectionProps {
+  onContactClick: () => void;
+}
+
+const LeadSection: React.FC<LeadSectionProps> = ({ onContactClick }) => {
   return (
     <section className="py-20 bg-gradient-to-br from-blue-50 via-white to-purple-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -119,7 +123,7 @@ const LeadSection = () => {
               <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
                 Descubre exactamente cómo automatizar TU negocio específico en una consulta gratuita de 30 minutos
               </p>
-              <button className="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-bold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg">
+              <button onClick={onContactClick} className="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-bold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg">
                 Contáctanos para Consulta Gratuita
               </button>
               <p className="text-blue-200 text-sm mt-3">Sin compromiso • Estrategia valiosa garantizada</p>

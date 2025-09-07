@@ -15,24 +15,30 @@ import Footer from './components/Footer';
 import ContactForm from './components/ContactForm';
 
 function App() {
+  const [isContactFormOpen, setIsContactFormOpen] = React.useState(false);
+
+  const openContactForm = () => {
+    setIsContactFormOpen(true);
+  };
+
   return (
     <div className="min-h-screen bg-white">
-      <Header />
+      <Header onContactClick={openContactForm} />
       <main>
-        <Hero />
-        <LeadSection />
+        <Hero onContactClick={openContactForm} />
+        <LeadSection onContactClick={openContactForm} />
         <ProofSection />
-        <BenefitsSection />
+        <BenefitsSection onContactClick={openContactForm} />
         <DifferentiatorsSection />
         <HowItWorksSection />
-        <OfferSection />
+        <OfferSection onContactClick={openContactForm} />
         <AboutSection />
         <SocialProofSection />
-        <FAQSection />
-        <FinalRecapSection />
+        <FAQSection onContactClick={openContactForm} />
+        <FinalRecapSection onContactClick={openContactForm} />
       </main>
       <Footer />
-      <ContactForm />
+      <ContactForm isOpen={isContactFormOpen} setIsOpen={setIsContactFormOpen} />
     </div>
   );
 }

@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
 import { ChevronDown, ChevronUp } from 'lucide-react';
 
-const FAQSection = () => {
+interface FAQSectionProps {
+  onContactClick: () => void;
+}
+
+const FAQSection: React.FC<FAQSectionProps> = ({ onContactClick }) => {
   const [openFAQ, setOpenFAQ] = useState<number | null>(null);
 
   const faqs = [
@@ -69,7 +73,7 @@ const FAQSection = () => {
 
         <div className="text-center mt-12">
           <p className="text-gray-600 mb-6">¿Tienes otra pregunta específica sobre tu negocio?</p>
-          <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300">
+          <button onClick={onContactClick} className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300">
             Contáctanos para Consulta Gratuita
           </button>
         </div>

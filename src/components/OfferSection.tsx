@@ -1,7 +1,11 @@
 import React from 'react';
 import { Gift, Shield, Clock, ArrowRight, CheckCircle } from 'lucide-react';
 
-const OfferSection = () => {
+interface OfferSectionProps {
+  onContactClick: () => void;
+}
+
+const OfferSection: React.FC<OfferSectionProps> = ({ onContactClick }) => {
   return (
     <section className="py-20 bg-gradient-to-r from-orange-500 to-pink-500">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -55,7 +59,7 @@ const OfferSection = () => {
 
           {/* CTA */}
           <div className="space-y-4">
-            <button className="bg-white text-orange-600 px-10 py-5 rounded-lg text-xl font-bold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-2xl flex items-center space-x-3 mx-auto">
+            <button onClick={onContactClick} className="bg-white text-orange-600 px-10 py-5 rounded-lg text-xl font-bold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-2xl flex items-center space-x-3 mx-auto">
               <span>SÍ, Contáctanos para Consulta GRATUITA</span>
               <ArrowRight size={24} />
             </button>
