@@ -73,7 +73,7 @@ const DifferentiatorsSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Por Qué Somos Completamente Diferentes
+            Por qué somos completamente diferentes
           </h2>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto">
             No somos otra empresa de software. Somos especialistas en automatización que entienden los retos únicos de empresarios mexicanos.
@@ -87,7 +87,7 @@ const DifferentiatorsSection = () => {
               <div className="bg-gradient-to-r from-orange-500 to-pink-500 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
                 <diff.icon className="text-white" size={24} />
               </div>
-              <h3 className="text-lg font-bold mb-3">{diff.title}</h3>
+              <h3 className="text-lg font-bold mb-3">{diff.title.charAt(0).toUpperCase() + diff.title.slice(1).toLowerCase()}</h3>
               <p className="text-gray-300">{diff.description}</p>
             </div>
           ))}
@@ -95,14 +95,14 @@ const DifferentiatorsSection = () => {
 
         {/* Comparison Table */}
         <div className="bg-gray-800 rounded-2xl p-8">
-          <h3 className="text-2xl font-bold text-center mb-8">AutomaticoAI vs. Otros Proveedores</h3>
+          <h3 className="text-2xl font-bold text-center mb-8">AutomaticoAI vs. otros proveedores</h3>
           <div className="overflow-x-auto">
             <table className="w-full">
               <thead>
                 <tr className="border-b border-gray-700">
                   <th className="text-left py-4 text-gray-300">Característica</th>
                   <th className="text-center py-4 text-orange-400 font-bold">AutomaticoAI</th>
-                  <th className="text-center py-4 text-gray-400">Otros Proveedores</th>
+                  <th className="text-center py-4 text-gray-400">Otros proveedores</th>
                 </tr>
               </thead>
               <tbody>

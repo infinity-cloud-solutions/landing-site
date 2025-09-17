@@ -40,7 +40,7 @@ const FAQSection: React.FC<FAQSectionProps> = ({ onContactClick }) => {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Preguntas Que Otros Empresarios Nos Hacen
+            Preguntas que otros empresarios nos hacen
           </h2>
           <p className="text-lg text-gray-600">
             Respuestas honestas a las dudas más comunes sobre automatización
@@ -74,7 +74,7 @@ const FAQSection: React.FC<FAQSectionProps> = ({ onContactClick }) => {
         <div className="text-center mt-12">
           <p className="text-gray-600 mb-6">¿Tienes otra pregunta específica sobre tu negocio?</p>
           <button onClick={onContactClick} className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300">
-            Contáctanos para Consulta Gratuita
+            Contáctanos para consulta gratuita
           </button>
         </div>
       </div>

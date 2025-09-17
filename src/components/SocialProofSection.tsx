@@ -46,7 +46,7 @@ const SocialProofSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Empresarios Como Tú Ya Están Viviendo Estos Resultados
+            Empresarios como tú ya están viviendo estos resultados
           </h2>
           <p className="text-lg text-blue-200 max-w-2xl mx-auto">
             Descubre cómo otros empresarios mexicanos transformaron sus negocios con automatización personalizada
@@ -60,7 +60,7 @@ const SocialProofSection = () => {
                 <div className="bg-gradient-to-r from-orange-500 to-pink-500 w-12 h-12 rounded-lg flex items-center justify-center mr-4">
                   <archetype.icon className="text-white" size={24} />
                 </div>
-                <h3 className="text-xl font-bold">{archetype.type}</h3>
+                <h3 className="text-xl font-bold">{archetype.type.charAt(0).toUpperCase() + archetype.type.slice(1).toLowerCase()}</h3>
               </div>
 
               <div className="bg-white bg-opacity-5 rounded-lg p-6">
@@ -86,7 +86,7 @@ const SocialProofSection = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             <div>
               <h4 className="text-2xl font-bold text-orange-400 mb-1">127+</h4>
-              <p className="text-blue-200 text-sm">Empresas Automatizadas</p>
+              <p className="text-blue-200 text-sm">Empresas automatizadas</p>
             </div>
             <div>
               <h4 className="text-2xl font-bold text-green-400 mb-1">98%</h4>
@@ -94,11 +94,11 @@ const SocialProofSection = () => {
             </div>
             <div>
               <h4 className="text-2xl font-bold text-purple-400 mb-1">300%</h4>
-              <p className="text-blue-200 text-sm">ROI Promedio</p>
+              <p className="text-blue-200 text-sm">ROI promedio</p>
             </div>
             <div>
               <h4 className="text-2xl font-bold text-pink-400 mb-1">20h</h4>
-              <p className="text-blue-200 text-sm">Ahorradas/Semana</p>
+              <p className="text-blue-200 text-sm">Ahorradas/semana</p>
             </div>
           </div>
         </div>

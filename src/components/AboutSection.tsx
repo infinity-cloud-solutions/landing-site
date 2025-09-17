@@ -8,7 +8,7 @@ const AboutSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Conoce al Equipo Detrás de Tu Éxito
+              Conoce al equipo detrás de tu éxito
             </h2>
             
             <div className="space-y-6">
@@ -26,21 +26,21 @@ const AboutSection = () => {
                     <Users className="text-blue-600" size={24} />
                   </div>
                   <h4 className="font-bold text-gray-900">127+</h4>
-                  <p className="text-gray-600 text-sm">Empresas Transformadas</p>
+                  <p className="text-gray-600 text-sm">Empresas transformadas</p>
                 </div>
                 <div className="text-center">
                   <div className="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3">
                     <Heart className="text-orange-600" size={24} />
                   </div>
                   <h4 className="font-bold text-gray-900">98%</h4>
-                  <p className="text-gray-600 text-sm">Satisfacción Cliente</p>
+                  <p className="text-gray-600 text-sm">Satisfacción cliente</p>
                 </div>
                 <div className="text-center">
                   <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3">
                     <Award className="text-green-600" size={24} />
                   </div>
                   <h4 className="font-bold text-gray-900">5+</h4>
-                  <p className="text-gray-600 text-sm">Años Experiencia</p>
+                  <p className="text-gray-600 text-sm">Años experiencia</p>
                 </div>
               </div>
             </div>
@@ -57,18 +57,18 @@ const AboutSection = () => {
 
         {/* Values */}
         <div className="mt-16 bg-gray-50 rounded-2xl p-8">
-          <h3 className="text-2xl font-bold text-center text-gray-900 mb-8">Nuestros Valores</h3>
+          <h3 className="text-2xl font-bold text-center text-gray-900 mb-8">Nuestros valores</h3>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="text-center">
-              <h4 className="font-bold text-gray-900 mb-2">🎯 Resultados Primero</h4>
+              <h4 className="font-bold text-gray-900 mb-2">🎯 Resultados primero</h4>
               <p className="text-gray-600 text-sm">No cobramos hasta que veas resultados medibles en tu negocio</p>
             </div>
             <div className="text-center">
-              <h4 className="font-bold text-gray-900 mb-2">🤝 Transparencia Total</h4>
+              <h4 className="font-bold text-gray-900 mb-2">🤝 Transparencia total</h4>
               <p className="text-gray-600 text-sm">Sabes exactamente qué hacemos, cuándo y por qué en cada paso</p>
             </div>
             <div className="text-center">
-              <h4 className="font-bold text-gray-900 mb-2">💡 Innovación Práctica</h4>
+              <h4 className="font-bold text-gray-900 mb-2">💡 Innovación práctica</h4>
               <p className="text-gray-600 text-sm">Tecnología de punta aplicada a problemas reales de empresarios mexicanos</p>
             </div>
           </div>

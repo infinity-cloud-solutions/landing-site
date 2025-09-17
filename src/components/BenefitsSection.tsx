@@ -39,7 +39,7 @@ const BenefitsSection: React.FC<BenefitsSectionProps> = ({ onContactClick }) => 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Resultados Que Transforman Tu Empresa
+            Resultados que transforman tu empresa
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             No vendemos software genérico. Creamos soluciones que resuelven TUS problemas específicos y se adaptan perfectamente a tu forma de trabajar.
@@ -52,7 +52,7 @@ const BenefitsSection: React.FC<BenefitsSectionProps> = ({ onContactClick }) => 
               <div className="bg-gradient-to-r from-blue-500 to-purple-500 w-16 h-16 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                 <benefit.icon className="text-white" size={32} />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">{benefit.title}</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">{benefit.title.charAt(0).toUpperCase() + benefit.title.slice(1).toLowerCase()}</h3>
               <p className="text-gray-600">{benefit.description}</p>
             </div>
           ))}
@@ -65,7 +65,7 @@ const BenefitsSection: React.FC<BenefitsSectionProps> = ({ onContactClick }) => 
               ¿Listo para recuperar tu tiempo y multiplicar tus ingresos?
             </h3>
             <button onClick={onContactClick} className="bg-gradient-to-r from-orange-500 to-pink-500 text-white px-8 py-4 rounded-lg text-lg font-bold hover:from-orange-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-105 shadow-lg">
-              Contáctanos para Consulta Gratuita
+              Contáctanos para consulta gratuita
             </button>
             <p className="text-sm text-gray-500 mt-3">Agenda en menos de 2 minutos • Sin presión de venta</p>
           </div>

@@ -10,7 +10,7 @@ const FinalRecapSection: React.FC<FinalRecapSectionProps> = ({ onContactClick })
     <section className="py-20 bg-gradient-to-r from-gray-900 to-blue-900 text-white">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-3xl md:text-5xl font-bold mb-6">
-          Tu Momento de Decidir Ha Llegado
+          Tu momento de decidir ha llegado
         </h2>
         
         <p className="text-xl text-gray-300 mb-12 max-w-3xl mx-auto">
@@ -19,34 +19,34 @@ const FinalRecapSection: React.FC<FinalRecapSectionProps> = ({ onContactClick })
 
         {/* Final Offer Summary */}
         <div className="bg-white bg-opacity-10 backdrop-blur-sm rounded-2xl p-8 mb-12">
-          <h3 className="text-2xl font-bold mb-6">Lo Que Obtienes HOY (Valorado en $2,500 MXN)</h3>
+          <h3 className="text-2xl font-bold mb-6">Lo que obtienes HOY (valorado en $2,500 MXN)</h3>
           
           <div className="grid md:grid-cols-2 gap-6 text-left">
             <div className="flex items-start space-x-3">
               <CheckCircle className="text-green-400 flex-shrink-0 mt-1" size={20} />
               <div>
-                <h4 className="font-semibold mb-1">Análisis Completo de Automatización</h4>
+                <h4 className="font-semibold mb-1">Análisis completo de automatización</h4>
                 <p className="text-gray-300 text-sm">Identificamos exactamente qué procesos automatizar para máximo impacto</p>
               </div>
             </div>
             <div className="flex items-start space-x-3">
               <CheckCircle className="text-green-400 flex-shrink-0 mt-1" size={20} />
               <div>
-                <h4 className="font-semibold mb-1">Estrategia Personalizada Completa</h4>
+                <h4 className="font-semibold mb-1">Estrategia personalizada completa</h4>
                 <p className="text-gray-300 text-sm">Plan detallado con prioridades, timeline y presupuesto realista</p>
               </div>
             </div>
             <div className="flex items-start space-x-3">
               <CheckCircle className="text-green-400 flex-shrink-0 mt-1" size={20} />
               <div>
-                <h4 className="font-semibold mb-1">Cálculo de ROI Proyectado</h4>
+                <h4 className="font-semibold mb-1">Cálculo de ROI proyectado</h4>
                 <p className="text-gray-300 text-sm">Números exactos de ahorro de tiempo y aumento de ingresos</p>
               </div>
             </div>
             <div className="flex items-start space-x-3">
               <CheckCircle className="text-green-400 flex-shrink-0 mt-1" size={20} />
               <div>
-                <h4 className="font-semibold mb-1">Hoja de Ruta de Implementación</h4>
+                <h4 className="font-semibold mb-1">Hoja de ruta de implementación</h4>
                 <p className="text-gray-300 text-sm">Pasos exactos para automatizar tu empresa completa</p>
               </div>
             </div>
@@ -57,7 +57,7 @@ const FinalRecapSection: React.FC<FinalRecapSectionProps> = ({ onContactClick })
         <div className="space-y-6">
           <button onClick={onContactClick} className="bg-gradient-to-r from-orange-500 to-pink-500 text-white px-12 py-6 rounded-xl text-xl font-bold hover:from-orange-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-105 shadow-2xl flex items-center space-x-3 mx-auto">
             <Gift size={24} />
-            <span>Contáctanos para Consulta GRATUITA Ahora</span>
+            <span>Contáctanos para consulta GRATUITA ahora</span>
             <ArrowRight size={24} />
           </button>
           

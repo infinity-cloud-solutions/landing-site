@@ -42,7 +42,7 @@ const ProofSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Resultados Reales de Empresarios Como Tú
+            Resultados reales de empresarios como tú
           </h2>
           <p className="text-lg text-gray-600">
             No prometemos milagros. Te mostramos resultados verificables.
@@ -69,7 +69,7 @@ const ProofSection = () => {
 
         {/* Media Mentions */}
         <div className="text-center">
-          <h3 className="text-lg font-semibold text-gray-900 mb-6">Reconocidos Por:</h3>
+          <h3 className="text-lg font-semibold text-gray-900 mb-6">Reconocidos por:</h3>
           <div className="flex flex-wrap justify-center items-center gap-8 opacity-60">
             {mediaLogos.map((logo, index) => (
               <div key={index} className="flex items-center space-x-2">
@@ -87,7 +87,7 @@ const ProofSection = () => {
               <TrendingUp className="text-blue-600" size={32} />
             </div>
             <h4 className="text-3xl font-bold text-blue-600 mb-2">127+</h4>
-            <p className="text-gray-600">Empresas Automatizadas</p>
+            <p className="text-gray-600">Empresas automatizadas</p>
           </div>
           <div className="text-center">
             <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -101,7 +101,7 @@ const ProofSection = () => {
               <Clock className="text-purple-600" size={32} />
             </div>
             <h4 className="text-3xl font-bold text-purple-600 mb-2">20h</h4>
-            <p className="text-gray-600">Ahorradas por Semana</p>
+            <p className="text-gray-600">Ahorradas por semana</p>
           </div>
         </div>
       </div>

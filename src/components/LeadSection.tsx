@@ -29,7 +29,7 @@ const LeadSection: React.FC<LeadSectionProps> = ({ onContactClick }) => {
               <div className="text-center lg:text-left">
                 <div className="inline-flex items-center bg-amber-100 text-amber-700 px-4 py-2 rounded-full text-sm font-semibold mb-4">
                   <Target className="mr-2" size={16} />
-                  El Reto Que Enfrentas
+                  El reto que enfrentas
                 </div>
                 <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
                   ¿Trabajas <span className="text-amber-600">EN</span> tu negocio en lugar de <span className="text-blue-600">PARA</span> tu negocio?
@@ -67,7 +67,7 @@ const LeadSection: React.FC<LeadSectionProps> = ({ onContactClick }) => {
               <div className="text-center lg:text-left">
                 <div className="inline-flex items-center bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-semibold mb-4">
                   <Lightbulb className="mr-2" size={16} />
-                  La Solución Que Necesitas
+                  La solución que necesitas
                 </div>
                 <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
                   Imagina recuperar <span className="text-blue-600">20 horas semanales</span> para estrategia y crecimiento
@@ -81,7 +81,7 @@ const LeadSection: React.FC<LeadSectionProps> = ({ onContactClick }) => {
                       <Target className="text-blue-600" size={20} />
                     </div>
                     <div>
-                      <h4 className="font-semibold text-gray-900 mb-1">100% Personalizado</h4>
+                      <h4 className="font-semibold text-gray-900 mb-1">100% personalizado</h4>
                       <p className="text-gray-600 text-sm">Cada solución diseñada específicamente para TU negocio único</p>
                     </div>
                   </div>
@@ -93,7 +93,7 @@ const LeadSection: React.FC<LeadSectionProps> = ({ onContactClick }) => {
                       <Clock className="text-green-600" size={20} />
                     </div>
                     <div>
-                      <h4 className="font-semibold text-gray-900 mb-1">Resultados Rápidos</h4>
+                      <h4 className="font-semibold text-gray-900 mb-1">Resultados rápidos</h4>
                       <p className="text-gray-600 text-sm">Automatización funcionando en 2-4 semanas máximo</p>
                     </div>
                   </div>
@@ -105,7 +105,7 @@ const LeadSection: React.FC<LeadSectionProps> = ({ onContactClick }) => {
                       <TrendingUp className="text-purple-600" size={20} />
                     </div>
                     <div>
-                      <h4 className="font-semibold text-gray-900 mb-1">ROI Garantizado</h4>
+                      <h4 className="font-semibold text-gray-900 mb-1">ROI garantizado</h4>
                       <p className="text-gray-600 text-sm">Recuperas tu inversión en 2-3 meses o trabajamos gratis</p>
                     </div>
                   </div>

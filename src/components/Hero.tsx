@@ -17,8 +17,8 @@ const Hero: React.FC<HeroProps> = ({ onContactClick }) => {
 
           {/* Headline */}
           <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
-            Automatiza Tu Negocio y 
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-pink-400"> Recupera 20 Horas</span> Semanales
+            Automatiza tu negocio y 
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-pink-400"> recupera 20 horas</span> semanales
           </h1>
 
           {/* Value Bullets */}

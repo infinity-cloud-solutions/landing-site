@@ -34,7 +34,7 @@ const HowItWorksSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Cómo Automatizamos Tu Negocio
+            Cómo automatizamos tu negocio
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Un proceso probado que ha transformado 127+ empresas mexicanas en máquinas de generar ingresos automatizadas.
@@ -56,7 +56,7 @@ const HowItWorksSection = () => {
                     <div className="bg-orange-100 text-orange-600 px-3 py-1 rounded-full text-sm font-semibold mb-3 inline-block">
                       {step.timeframe}
                     </div>
-                    <h3 className="text-lg font-bold text-gray-900 mb-3">{step.title}</h3>
+                    <h3 className="text-lg font-bold text-gray-900 mb-3">{step.title.charAt(0).toUpperCase() + step.title.slice(1).toLowerCase()}</h3>
                     <p className="text-gray-600 text-sm">{step.description}</p>
                   </div>
                 </div>
@@ -73,7 +73,7 @@ const HowItWorksSection = () => {
         {/* Results Timeline */}
         <div className="mt-16 bg-white rounded-2xl p-8 shadow-lg">
           <h3 className="text-2xl font-bold text-center text-gray-900 mb-8">
-            Tu Línea de Tiempo de Resultados
+            Tu línea de tiempo de resultados
           </h3>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="text-center">

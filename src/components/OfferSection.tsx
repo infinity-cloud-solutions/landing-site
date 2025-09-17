@@ -12,11 +12,11 @@ const OfferSection: React.FC<OfferSectionProps> = ({ onContactClick }) => {
         <div className="max-w-4xl mx-auto text-center text-white">
           <div className="inline-flex items-center bg-white bg-opacity-20 text-white px-4 py-2 rounded-full text-sm font-semibold mb-6">
             <Gift className="mr-2" size={16} />
-            Oferta Especial - Solo Este Mes
+            Oferta especial - solo este mes
           </div>
 
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
-            Consulta de Automatización 100% GRATUITA
+            Consulta de automatización 100% GRATUITA
           </h2>
           
           <p className="text-xl mb-8 text-orange-100">
@@ -60,7 +60,7 @@ const OfferSection: React.FC<OfferSectionProps> = ({ onContactClick }) => {
           {/* CTA */}
           <div className="space-y-4">
             <button onClick={onContactClick} className="bg-white text-orange-600 px-10 py-5 rounded-lg text-xl font-bold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-2xl flex items-center space-x-3 mx-auto">
-              <span>SÍ, Contáctanos para Consulta GRATUITA</span>
+              <span>SÍ, contáctanos para consulta GRATUITA</span>
               <ArrowRight size={24} />
             </button>
             
