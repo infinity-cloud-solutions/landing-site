@@ -7,7 +7,7 @@ interface HeroProps {
 
 const Hero: React.FC<HeroProps> = ({ onContactClick }) => {
   return (
-    <section className="min-h-screen bg-gradient-to-br from-blue-900 via-blue-800 to-purple-900 flex items-center pt-20">
+    <section className="min-h-screen bg-gradient-to-r from-gray-900 to-blue-900 flex items-center pt-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
         <div className="text-white">
           {/* Eyebrow */}
