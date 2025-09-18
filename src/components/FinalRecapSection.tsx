@@ -55,7 +55,7 @@ const FinalRecapSection: React.FC<FinalRecapSectionProps> = ({ onContactClick })
 
         {/* Final CTA */}
         <div className="space-y-6">
-          <button onClick={onContactClick} className="bg-gradient-to-r from-orange-500 to-pink-500 text-white px-12 py-6 rounded-xl text-xl font-bold hover:from-orange-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-105 shadow-2xl flex items-center space-x-3 mx-auto">
+          <button onClick={onContactClick} className="bg-gradient-to-r from-orange-700 to-orange-400 text-white px-12 py-6 rounded-xl text-xl font-bold hover:from-orange-800 hover:to-orange-500 transition-all duration-300 transform hover:scale-105 shadow-2xl flex items-center space-x-3 mx-auto">
             <Gift size={24} />
             <span>Contáctanos para consulta GRATUITA ahora</span>
             <ArrowRight size={24} />

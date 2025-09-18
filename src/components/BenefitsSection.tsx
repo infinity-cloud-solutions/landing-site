@@ -64,7 +64,7 @@ const BenefitsSection: React.FC<BenefitsSectionProps> = ({ onContactClick }) => 
             <h3 className="text-2xl font-bold text-gray-900 mb-4">
               ¿Listo para recuperar tu tiempo y multiplicar tus ingresos?
             </h3>
-            <button onClick={onContactClick} className="bg-gradient-to-r from-orange-500 to-pink-500 text-white px-8 py-4 rounded-lg text-lg font-bold hover:from-orange-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-105 shadow-lg">
+            <button onClick={onContactClick} className="bg-gradient-to-r from-orange-700 to-orange-400 text-white px-8 py-4 rounded-lg text-lg font-bold hover:from-orange-800 hover:to-orange-500 transition-all duration-300 transform hover:scale-105 shadow-lg">
               Contáctanos para consulta gratuita
             </button>
             <p className="text-sm text-gray-500 mt-3">Agenda en menos de 2 minutos • Sin presión de venta</p>
